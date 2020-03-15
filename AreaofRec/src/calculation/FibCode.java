@@ -11,7 +11,7 @@ public class FibCode {
 		System.out.println(f1+"\n"+f2);
 		for(int i=2;i<=input;i++) {
 			f3=f1+f2;
-			//if(f3<=input)/*in case to get fib series num upto the between range*/
+			if(f3<=input)/*in case to get fib series num upto the between range*/
 			System.out.println(f3 +" ");
 			f1=f2;
 			f2=f3;
